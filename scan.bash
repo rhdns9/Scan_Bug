@@ -1,6 +1,6 @@
 #!/bin/bash
 # CloudUnflare
-
+clear
 CompleteDNS_Login='email@mail.com|password'
 
 if [[ -z $(command -v dig) ]]; then
