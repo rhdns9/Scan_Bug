@@ -1,5 +1,5 @@
 #!/bin/bash
-# CloudUnflare
+# By= RizkiHdyt99
 clear
 CompleteDNS_Login='email@mail.com|password'
 
@@ -21,8 +21,8 @@ echo "║╗╣║║║═╣║═╣║║║╔╗║║╬║║║║║�
 echo "╚╩╝╚╝╚═╝╚╩╝╚╝╚╝╚╝╚═╝╠╗║╚═╝"
 echo "────────────────────╚═╝───"
 echo "════════════════════════════════════════"
-echo " SCRIPT SCAN BUG "
-echo " by: RizkiHdyt99 "
+echo " ✧ SCRIPT SCAN BUG ✧"
+echo " ✧ By: RizkiHdyt99 ✧"
 echo "════════════════════════════════════════"
 
 
@@ -47,7 +47,7 @@ fi
 
 function Dig() {
 	D=$1
-	echo " INFO: Checking Proses ${D}"
+	echo "➣ INFO: Checking Proses [ ${D} ]"
 	for DMN in $(dig +short ${D} | grep '[.]'$ | sed 's/[.]$//g' | sort -V | uniq)
 	do
 		echo "   + CNAME: ${DMN}"
